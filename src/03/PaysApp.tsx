@@ -2,14 +2,14 @@
 import Country from './Pays'
 
 
-interface CountryType {
+interface TypePays {
     name: string
     flag: string
     capital: string
     population: number
 }
 
-const countryList:Array<CountryType> = [
+const ListPays:Array<TypePays> = [
     {
         name: "Chine",
         capital: "Pékin",
@@ -28,7 +28,7 @@ const countryList:Array<CountryType> = [
 
 export default function PaysApp() {
 
-    const countries = countryList.map(function(p, index) {
+    const LesPays = ListPays.map(function(p, index) {
         return (
             <Country 
                 key={index} 
@@ -41,7 +41,7 @@ export default function PaysApp() {
     return (
         <div>
             <h1>Liste des pays</h1>
-            {countries}
+            {LesPays}
         </div>
     )
 }

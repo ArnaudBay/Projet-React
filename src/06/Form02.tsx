@@ -31,7 +31,7 @@ export default function Form02() {
     }
 
     return (
-        <div className="p-12 space-y-2">
+        <div className="p-12 space-y-2 bg-amber-100">
 
             <form onSubmit={sendMessage}>
                 <div>

@@ -87,7 +87,7 @@ export default function Form02() {
                 </div>
                 <div>
                     <label>Message <span className="text-red-500">*</span></label>
-                    <textarea value={form.message}
+                   <textarea value={form.message}
                               required
                               onChange={handleChangeMessage}
                               className="block border p-1" placeholder="Le contenu de votre message"/>

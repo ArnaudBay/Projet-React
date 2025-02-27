@@ -98,7 +98,7 @@ export default function Form02() {
                             className="bg-black text-white uppercase text-xs tracking-wide px-4 py-1">
                       {submitting ?<RiLoader5Line className="animate-spin" /> : "Envoyer" }
                     </button>
-                    <button className="text-gray-600"
+                    <button className="text-amber-50 bg-amber-700"
                             onClick={resetForm}>Effacer
                     </button>
                 </div>
